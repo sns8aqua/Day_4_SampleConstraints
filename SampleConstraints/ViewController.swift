@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var headerStack: UIStackView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
